@@ -7,4 +7,4 @@ This contains classes where one would input the band name, members, and returns 
 
 ### Link:
 
-[Garage Band](https://github.com/Zaid-Jarrar/pythonic-garage-band/pull/1)
+[Garage Band v0.1 09/03/2022](https://github.com/Zaid-Jarrar/pythonic-garage-band/pull/1)
