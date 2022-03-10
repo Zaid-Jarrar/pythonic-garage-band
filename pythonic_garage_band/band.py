@@ -96,15 +96,19 @@ class Guitarist(Musician):
     def __init__(self,name):
         self.name = name
         self.instrument = 'guitar'
+        #or remove the self.instrument and return guitar in the get_instrument() as string
 
     def __str__(self):
         return f'My name is {self.name} and I play {self.get_instrument()}'
     
     def __repr__ (self):
         return f'Guitarist instance. Name = {self.name}'
+        # or return f'{self.__class__.__name__} instace. Name = {self.name}'
+        # self.__class__.__name__ will give the name of the class which is Guitarist
 
     def get_instrument(self):
         return self.instrument
+        # or return 'guitar'
 
     def play_solo(self):
         return 'face melting guitar solo'
